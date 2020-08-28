@@ -368,7 +368,7 @@ def main():
         ))
 
     answer = input(
-        '\nChoose a product to download (1-%s): ' % len(product_info))
+        '\nChoose a product to download - Select Mojave for now - (1-%s): ' % len(product_info))
     try:
         index = int(answer) - 1
         if index < 0:

@@ -15,6 +15,7 @@ checkbrew() {
 }
 if [[ "$OSTYPE" == "darwin"* ]]; then
     checkbrew
+    python ./fetch-macOS.py
 else
     echo This is a macOS specific application - No support for $OSTYPE planned
 fi
